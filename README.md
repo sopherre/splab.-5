@@ -11,3 +11,10 @@
     - `--viewport-size`
 - テスト結果の確認
   - `show-trace`
+
+## インストール
+
+```sh
+pnpm install
+pnpm playwright install
+```
