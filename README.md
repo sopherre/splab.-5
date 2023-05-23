@@ -1,12 +1,13 @@
 # SpLab. #5
 
-## 参考文献
+## Playwright の調査
 
-- https://nextat.co.jp/staff/archives/291
-
-## Code Generator のオプション
-
-- viewport-size=$X,$Y : ビューポートサイズ
-- output=$PATH : コードの出力
-- device=$DEVICE : デバイスの指定
-- save-storage=$PATH :
+- Playwright の基本
+  - config の軽い説明
+- Code Generator の利用
+  - `codegen`
+  - 便利なオプション
+    - `--output`
+    - `--viewport-size`
+- テスト結果の確認
+  - `show-trace`

@@ -7,8 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:e2e": "playwright test",
-    "test:e2e-codegen": "npx playwright codegen http://localhost:3000"
+    "test:e2e": "playwright test -c ./config/playwright.config.ts",
+    "test:e2e-codegen": "source .env && npx playwright codegen --output=./e2e/out/$DATE.spec.ts --viewport-size=390,844",
+    "test:e2e-trace": "playwright show-trace"
+  },
+  "config": {
+    "date": "date '+%Y-%m-%d_%H-%M-%S'"
   },
   "dependencies": {
     "@types/node": "20.1.4",

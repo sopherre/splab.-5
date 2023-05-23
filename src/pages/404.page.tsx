@@ -1,17 +1,17 @@
-import Template from "@/components/templates/top.template";
+import Template from "@/components/templates/404.template";
 import { NextPage } from "next";
 import Head from "next/head";
-import { Fragment, memo } from "react";
+import { Fragment } from "react";
 
 const Page: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Top Page</title>
+        <title>Not Found Page</title>
       </Head>
       <Template />
     </Fragment>
   );
 };
 
-export default memo(Page);
+export default Page;
