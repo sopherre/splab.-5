@@ -11,9 +11,6 @@
     "test:e2e-codegen": "source .env && npx playwright codegen --output=./e2e/out/$DATE.spec.ts --viewport-size=390,844",
     "test:e2e-trace": "playwright show-trace"
   },
-  "config": {
-    "date": "date '+%Y-%m-%d_%H-%M-%S'"
-  },
   "dependencies": {
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
