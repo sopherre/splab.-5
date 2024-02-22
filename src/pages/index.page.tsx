@@ -8,6 +8,7 @@ const Page: NextPage = () => {
     <Fragment>
       <Head>
         <title>Top Page</title>
+        <p>test git push</p>
       </Head>
       <Template />
     </Fragment>
